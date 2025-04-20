@@ -1,4 +1,4 @@
-class ApiError extends Error {
+export class ApiError extends Error {
     statusCode: number;
     data: any;
     success: boolean;
@@ -23,5 +23,3 @@ class ApiError extends Error {
       }
     }
   }
-  
-  export { ApiError };
